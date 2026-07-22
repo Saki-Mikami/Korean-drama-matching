@@ -211,7 +211,7 @@ export default function Home() {
     setLoading(true);
     setFlash(true); // ← 白フラッシュON
 
-    const res = await fetch("http://localhost:8000/match", {
+    const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/match`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(answers),
