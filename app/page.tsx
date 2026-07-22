@@ -421,9 +421,7 @@ export default function Home() {
 
                   {/* Xでシェアボタン*/}
                   <a
-                    href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(
-
-                    )}&url=${encodeURIComponent("https://inoruchi-matching.vercel.app/")}`}
+                    href={`https://twitter.com/intent/tweet?text=${encodeURIComponent('おすすめの韓国ドラマを診断しました！')}und&url=${encodeURIComponent('https://inoruchi-matching.vercel.app/')}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     style={{ backgroundColor: '#535157', color: '#F8F7F4' }}
